@@ -1,17 +1,9 @@
-#TODO Calculator FUNCTIONS
+def calculate(a, b, op):
+    elif op == "-":
+         ans = a - b   
+    return ans
 
-
-
-
-
-
-def calculate(a, b, operation):
-        #TODO (CONTINUE ON THE SAME PATTERN
-
-
-
-
-num1 = #TODO INPUT FROM USER
-num2 = #TODO INPUT FROM USER
-op = #TODO INPUT FROM USER
+num1 = int(input("First Number: "))
+num2 = int(input("Second Number: "))
+op = input("Operation (Symbol): ")
 print(calculate(num1, num2, op))
